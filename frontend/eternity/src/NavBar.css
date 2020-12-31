@@ -1,0 +1,66 @@
+.navBar {
+  margin-top: 1rem;
+  height: 5rem;
+}
+
+.navCenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoClass {
+  margin-left: 4rem;
+}
+
+.searchBar {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  margin-right: 4rem;
+}
+
+#searchIcon {
+  /* border: solid; */
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-right: 0.5rem;
+}
+
+#searchIconTwo {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 1rem;
+}
+
+#profileIcon {
+  /* border: solid; */
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+#shopIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+#search {
+  width: 40rem;
+  height: 2rem;
+  border: solid;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+#logo {
+  width: 8rem;
+  height: 4rem;
+}

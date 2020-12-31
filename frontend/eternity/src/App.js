@@ -1,8 +1,14 @@
 import './App.css'
+import NavBar from './NavBar.js'
+import SlideShow from './SlideShow.js'
+import listOfImages from './defaultSlides'
 
 function App() {
   return (
-    <h1>hi</h1>
+    <div>
+      <NavBar/>
+      <SlideShow slides={listOfImages}/>
+    </div>
   );
 }
 
