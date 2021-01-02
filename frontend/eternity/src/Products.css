@@ -1,0 +1,27 @@
+.products {
+  display: grid;
+  margin-top: 3rem;
+  grid-template-columns: 30rem 30rem 30rem;
+  grid-gap: 3rem;
+  grid-template-rows: minmax(20rem, auto);
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  justify-items: center;
+  margin-bottom: 3rem;
+}
+
+.product {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+}
+
+.productImage {
+  width: 10rem;
+  height: 10rem;
+}

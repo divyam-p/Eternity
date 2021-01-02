@@ -24,7 +24,6 @@ function SlideShow({slides}){
     }
 
     useEffect(() => {
-        console.log("HIIII"); 
         if(check){
             setTimeout(goToNext, 10000); 
             setCheck(true); 
