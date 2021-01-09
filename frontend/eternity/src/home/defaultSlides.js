@@ -1,6 +1,6 @@
-import image1 from './assets/slideShow/1.jpg'
-import image2 from './assets/slideShow/2.jpg'
-import image3 from './assets/slideShow/3.jpg'
+import image1 from '../assets/slideShow/1.jpg'
+import image2 from '../assets/slideShow/2.jpg'
+import image3 from '../assets/slideShow/3.jpg'
 
 
 const listOfImages = [

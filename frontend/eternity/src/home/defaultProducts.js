@@ -1,6 +1,6 @@
-import product1 from './assets/products/product1.jpg'
-import product2 from './assets/products/product2.jpg'
-import product3 from './assets/products/product3.jpg'
+import product1 from '../assets/products/product1.jpg'
+import product2 from '../assets/products/product2.jpg'
+import product3 from '../assets/products/product3.jpg'
 
 const listOfProducts = [
     {

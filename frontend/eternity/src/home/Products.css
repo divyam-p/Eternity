@@ -1,7 +1,7 @@
 .products {
   display: grid;
   margin-top: 3rem;
-  grid-template-columns: 30rem 30rem 30rem;
+  grid-template-columns: 30% 30% 30%;
   grid-gap: 3rem;
   grid-template-rows: minmax(20rem, auto);
   justify-content: center;

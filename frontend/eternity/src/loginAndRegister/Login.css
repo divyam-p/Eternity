@@ -1,0 +1,47 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.loginEmail,
+.loginPassword {
+  width: 35%;
+  height: 4rem;
+  font-size: 1.1rem;
+}
+
+#loginEmail,
+#loginPassword {
+  width: 100%;
+  height: 1.8rem;
+  margin-top: 0.1rem;
+}
+
+#loginSubmit {
+  margin-top: 1.5rem;
+  width: 5rem;
+  height: 2rem;
+  background-color: black;
+  color: rgb(172, 169, 169);
+}
+
+#createAccountButton {
+  margin-top: 1.5rem;
+  border: none;
+  background: none;
+}
+
+#loginTitle {
+  font-size: 2rem;
+}
