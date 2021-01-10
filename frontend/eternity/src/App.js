@@ -2,6 +2,7 @@ import './App.css'
 import NavBar from './navigationBar/NavBar.js'
 import SlideShow from './home/SlideShow.js'
 import listOfImages from './home/defaultSlides.js'
+import AddProduct from './home/AddProduct.js'
 import Products from './home/Products.js' 
 import listOfProducts from './home/defaultProducts.js'
 import Login from './loginAndRegister/Login.js'
@@ -48,6 +49,7 @@ function App() {
           <Switch>
             <Route exact path="/">
               <SlideShow slides={listOfImages}/>
+              <AddProduct />
               <Products products={listOfProducts}/> 
             </Route>
             <Route path="/login"> 

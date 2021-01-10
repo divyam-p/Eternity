@@ -2,8 +2,6 @@ import "./Products.css"
 
 function Products({products}){ 
 
-
-
     return (
         <div className="products">
             { 
