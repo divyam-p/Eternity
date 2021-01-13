@@ -34,7 +34,7 @@
 - #### Image / Products Slider 
 
 <p align="center">
-    <img src="readme_imgs/imageSlider.gif" alt="Image">
+    <img src="readme_imgs/pic4.png" alt="Image">
 
 <br/>
 
