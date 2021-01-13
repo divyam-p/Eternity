@@ -20,14 +20,7 @@
 
 ### Features
 
-- #### Header 
-
-<p align="center">
-    <img src="readme_imgs/pic1.png" alt="Image">
-
-<br/> 
-
-- #### Safe Login / Register with Error Checking 
+- #### Safe Login / Register with Error Checking using JWT
 
 <p align="center">
     <img src="readme_imgs/pic2.png" alt="Image">
