@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://github.com/divyam-p/Eternity">
-    <img src="readme_imgs/" alt="Logo" width="80" height="80">
+    <img src="readme_imgs/pic1.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Eternity</h3>
 </p>
@@ -37,6 +37,7 @@
     <img src="readme_imgs/pic4.png" alt="Image">
 
 <br/>
+* The image slider auto switchs the displayed image after 10 seconds, you can also manually switch between images that are stored for display by clicking the arrows
 
 ### Some Features Under Development 
 - #### Adding Products through an Admin Account 
@@ -46,8 +47,6 @@
 ## Deployment 
 
 ### with _ at _
-
-<br/>
 
 ## Note: 
 * use the deployed site to test. 
