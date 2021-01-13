@@ -23,23 +23,27 @@
 - #### Header 
 
 <p align="center">
-    <img src="readme_imgs/" alt="Logo">
+    <img src="readme_imgs/pic1.png" alt="Image">
 
 <br/> 
 
 - #### Safe Login / Register with Error Checking 
 
 <p align="center">
-    <img src="readme_imgs/" alt="Logo">
+    <img src="readme_imgs/pic2.png" alt="Image">
+
+<br/> 
+<p align="center">
+    <img src="readme_imgs/pic3.png" alt="Image">
 
 <br/> 
 
 - #### Image / Products Slider 
 
 <p align="center">
-    <img src="readme_imgs/" alt="Logo">
+    <img src="readme_imgs/imageSlider.gif" alt="Image">
 
-<br/> 
+<br/>
 
 ### Some Features Under Development 
 - #### Adding Products through an Admin Account 
