@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://github.com/divyam-p/Eternity">
-    <img src="readme_imgs/pic1.png" alt="Logo" width="80" height="80">
+    <img src="readme_imgs/pic1.png" alt="Logo" width="120" height="80">
   </a>
   <h3 align="center">Eternity</h3>
 </p>
