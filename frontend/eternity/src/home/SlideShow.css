@@ -55,3 +55,7 @@ body {
   object-fit: cover;
   z-index: -1;
 }
+
+.slideshowProductInfo {
+  text-align: center;
+}

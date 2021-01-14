@@ -1,13 +1,8 @@
-// import image1 from './assets/slideShow/1.jpg'
-// import image2 from './assets/slideShow/2.jpg'
-// import image3 from './assets/slideShow/3.jpg'
 import './SlideShow.css'
 import React from 'react'
 import { useState, useEffect, useCallback} from 'react'
 import { IoIosArrowBack } from 'react-icons/io'
 import { IoIosArrowForward } from 'react-icons/io'
-
-//https://scrimba.com/scrim/cpqd9rta
 
 function SlideShow({slides}){  
     const [current, setCurrent] = useState(0); 
@@ -49,8 +44,8 @@ function SlideShow({slides}){
                             <IoIosArrowBack  onClick={() => {goToBack(); setCheck(false)}} id="arrowLeft"/>
                         </div>
                         <div>
-                            <h1>{s.title}</h1>
-                            <h2>{s.subtitle}</h2>
+                            <h1 className="slideshowProductInfo">{s.title}</h1>
+                            <h2 className="slideshowProductInfo">{s.subtitle}</h2>
                         </div>
                         <div>
                             <IoIosArrowForward onClick={() => {goToNext(); setCheck(false)}} id="arrowRight"/> 
@@ -66,6 +61,4 @@ function SlideShow({slides}){
     );
 }
 
-//IoIosArrowForward
-//IoIosArrowBack
 export default SlideShow
