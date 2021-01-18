@@ -46,7 +46,7 @@
 
 ## Deployment 
 
-### Yet to be done. 
+### with Heroku at https://eternity-shop.herokuapp.com/ (underdevelopment so some things might look odd, also backend still needs to be connected on heroku!) 
 
 ## Note: 
 * use the deployed site to test. 
