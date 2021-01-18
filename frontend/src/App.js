@@ -49,8 +49,8 @@ function App() {
           <Switch>
             <Route exact path="/">
               <SlideShow slides={listOfImages}/>
-              {/* <AddProduct />
-              <Products products={listOfProducts}/>  */}
+              <AddProduct />
+              <Products products={listOfProducts}/> 
             </Route>
             <Route path="/login"> 
               <Login/> 
