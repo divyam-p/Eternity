@@ -18,7 +18,7 @@
 # Description
 >> This is a shopping site under development using MERN stack. 
 
-### Features
+### Features Complete
 
 - #### Safe Login / Register with Error Checking using JWT
 
@@ -46,7 +46,7 @@
 
 ## Deployment 
 
-### with Heroku at https://eternity-shop.herokuapp.com/ (underdevelopment so some things might look odd, also backend still needs to be connected on heroku!) 
+### with Heroku at https://eternity-shop.herokuapp.com/
 
 ## Note: 
 * use the deployed site to test. 
