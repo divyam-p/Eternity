@@ -1,2 +1,2 @@
-frontend/eternity=https://github.com/heroku/heroku-buildpack-nodejs.git
+frontend=https://github.com/heroku/heroku-buildpack-nodejs.git
 backend=https://github.com/heroku/heroku-buildpack-nodejs.git
