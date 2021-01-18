@@ -28,9 +28,9 @@ function App() {
         localStorage.setItem("auth-token", ""); 
         token = ""; 
       }
-      const tokenRes = await Axios.post("http://localhost:${process.env.PORT}/users/tokenIsValid", null, {headers: {"x-auth-token": token}}); 
+      const tokenRes = await Axios.post("http://localhost:5000/users/tokenIsValid", null, {headers: {"x-auth-token": token}}); 
       if(tokenRes.data){ 
-        const userRes = await Axios.get("http://localhost:${process.env.PORT}/users/", {headers: {"x-auth-token": token}}); 
+        const userRes = await Axios.get("http://localhost:5000/users/", {headers: {"x-auth-token": token}}); 
         setUserData({ 
           token, 
           user: userRes.data,
