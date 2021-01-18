@@ -3,6 +3,7 @@ const cors = require('cors');
 const mongoose = require('mongoose'); 
 const Grid = require('gridfs-stream'); 
 const methodOverride = require('method-override'); 
+const path = require('path'); 
 
 require('dotenv').config(); 
 
@@ -37,6 +38,13 @@ const productsRouter = require('./routes/products');
 
 app.use('/users', usersRouter); 
 app.use('/products', productsRouter); 
+
+// Frontend Static files 
+app.use(express.static('../frontend/build'));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "..", "frontend", "build", "index.html"));
+});
 
 app.listen(port, ()=> { 
     console.log(`Server is running on port : ${port}`); 
