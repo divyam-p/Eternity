@@ -50,4 +50,3 @@
 
 ## Note: 
 * use the deployed site to test. 
-* the project is being created on the development branch and some features may not have been merged with the master branch yet. 
