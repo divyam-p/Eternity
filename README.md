@@ -49,4 +49,4 @@
 ### with Heroku at https://eternity-shop.herokuapp.com/
 
 ## Note: 
-* use the deployed site to test. 
+* use the deployed site to test, it may take awhile to load the first time around. 
