@@ -1,0 +1,22 @@
+.addProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+}
+
+.cancelButton {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 20%;
+}
+
+#productCancelButton {
+  background: none;
+  border: solid;
+  margin-right: 0.5rem;
+  size: 3rem;
+  font-size: 1.5rem;
+}

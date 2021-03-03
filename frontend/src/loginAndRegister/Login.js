@@ -45,7 +45,9 @@ export default function Login() {
 
     return (<div>
         { userData.user ? (
-            <button onClick={logOut}>LogOut</button>
+          <div className="logoutButton">
+            <button id="logoutButton" onClick={logOut}>LogOut</button>
+          </div>
         ) :  
         (
         <div className="login">
